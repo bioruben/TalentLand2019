@@ -10,7 +10,7 @@ from keras.layers import Conv2D, MaxPooling2D
 
 #Setup variables
 batchSize      = 32
-epochs         = 1
+epochs         = 100
 validationSize = 0.2 # 20 percent (0.2)
 heightResize   = 240
 widthResize    = 320
